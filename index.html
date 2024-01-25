@@ -15,6 +15,7 @@
 	<meta name="twitter:title" content="Nina Carducci">
 	<meta name="twitter:description" content="Photographe professionnelle et passionnée basée à Bordeaux.">
 	<meta name="twitter:image" content="https://tomlam0.github.io/nina-carducci/assets/images/nina.webp">
+	
 	<!-- Facebook & Linkedin -->
 	<meta property="og:title" content="Nina Carducci">
 	<meta property="og:type" content="siteweb">
@@ -24,18 +25,16 @@
 
 	
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="./assets/build/bootstrap.css">
+	<link rel="stylesheet" href="./assets/build/bootstrap.min.css">
 
 	<!--Css-->
-	<link rel="stylesheet" href="./assets/build/style.css">
+	<link rel="stylesheet" href="./assets/build/style.min.css">
 	
 	<!--Font-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/build/font.min.css">
 	
 	<!--Jquery-->
-	<script src="./public/jquery-3.4.1.min.js" defer></script>
+	
 	
     
 	<!-- Rich Snippet -->
@@ -108,7 +107,9 @@
 				 "
 				 sizes="100vm"
 				 src="./assets/images/slider/ryoji-iwata-entreprise-min.webp"
-				 class="d-block w-100" 
+				 class="d-block w-100"
+				 width="400" 
+				 height="100"
 				 alt="Photo d'entreprise">
 			</div>
 
@@ -122,7 +123,10 @@
 				 "
 				 sizes="100vm"
 				 src="./assets/images/slider/nicholas-green-concert-min.webp" 
-				 class="d-block w-100" 
+				 class="d-block w-100"
+				 width="400" 
+				 height="100"
+				 loading="lazy" 
 				 alt="Photo de concert">
 			</div>
 
@@ -137,7 +141,11 @@
 				 sizes="100vm"
 				 src="./assets/images/slider/edward-cisneros-mariage-min.webp" 
 				 class="d-block w-100" 
-				 alt="Photo de mariage">
+				 width="400" 
+				 height="100"
+				 loading="lazy"
+				 alt="Photo de mariage"
+				 >
 			</div>
 
 		</div>
@@ -258,7 +266,9 @@
 	</div>
 </section>
 
-      <script src="./assets/gallery.min.js" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/jquery-3.4.1.min.js" defer></script>
+	<script src="./assets/build/bootstrap.bundle.min.js" defer></script>
+	<script src="./assets/gallery.min.js" defer></script>
+
 </body>
 </html>
